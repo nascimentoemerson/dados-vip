@@ -1,0 +1,80 @@
+{
+    "manifest_version": 3,
+    "version": "1.05",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://estrelabet.com/*",
+                "https://estrelabetoss.evo-games.com/*",
+                "https://pixbet.com/*",
+                "https://gameloader.belloatech.dev/*",
+                "https://belloatech.evo-games.com/*",
+                "https://www.esportiva.bet/*",
+                "https://dpg.evo-games.com/*",
+                "https://br.betano.com/*",
+                "https://gaming-launch-br.betano.com/*",
+                "https://betano-br.evo-games.com/*",
+                "https://braxbet.com/*",
+                "https://atlas.evo-games.com/*",
+                "https://realsbet.com/*",
+                "https://b2xbet.com/*",
+                "https://babylonear.evo-games.com/*",
+                "https://www.b1.bet/*",
+                "https://www.segurobet.com/*",
+                "https://games.segurobet.com/*",
+                "https://evo.nigrumhortis.com/*",
+                "https://www.esportesdasorte.com/*",
+                "https://esportesdasorteoss.evo-games.com/*"
+            ],
+			"css": ["assets/css/estilo.css"],
+            "js": ["system/crawler.js"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+		"tabs",
+        "activeTab",
+        "cookies",
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://estrelabet.com/",
+        "https://estrelabetoss.evo-games.com/",
+        "https://pixbet.com/",
+        "https://gameloader.belloatech.dev/",
+        "https://belloatech.evo-games.com/",
+        "https://www.esportiva.bet/",
+        "https://dpg.evo-games.com/",
+        "https://br.betano.com/",
+        "https://gaming-launch-br.betano.com/",
+        "https://betano-br.evo-games.com/",
+        "https://braxbet.com/",
+        "https://atlas.evo-games.com/",
+        "https://realsbet.com/",
+        "https://b2xbet.com/",
+        "https://babylonear.evo-games.com/",
+        "https://www.b1.bet/",
+        "https://www.segurobet.com/",
+        "https://games.segurobet.com/",
+        "https://evo.nigrumhortis.com/",
+        "https://www.esportesdasorte.com/",
+        "https://esportesdasorteoss.evo-games.com/"
+    ],
+    "web_accessible_resources": [{
+        "resources": [
+            "logo.jpeg"
+        ],
+        "matches": ["<all_urls>"]
+    }],
+    "name": "WILL DADOS ULTRA",
+    "description": "Bot de entradas automaticas",
+    "author": "WPP(13) 996381215",
+    "action": {
+        "default_title": "renanzinn",
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}
